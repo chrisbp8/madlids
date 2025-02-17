@@ -10,7 +10,11 @@ def get_word(word_type):
         'adjective': ['big', 'yellow', 'quick', 'lazy', 'funny'],
         'adverb': ['quickly', 'lazily', 'happily', 'sadly'],
         'place': ['park', 'restaurant', 'school', 'zoo', 'museum'],
+<<<<<<< HEAD
         'exclamation': ['Wow', 'Oh no', 'Hoorays', 'Yikes', 'Oops'],
+=======
+        'exclamation': ['Wow', 'Oh no', 'Hooray', 'Yikes', 'Oops'],
+>>>>>>> refs/remotes/origin/main
     }
     return random.choice(words[word_type])
 
@@ -44,4 +48,8 @@ def home():
     return create_story()
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run(host="0.0.0.0", port=8000)
+=======
+    app.run(host="0.0.0.0", port=8000)
+>>>>>>> refs/remotes/origin/main
