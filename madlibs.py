@@ -10,7 +10,7 @@ def get_word(word_type):
         'adjective': ['big', 'yellow', 'quick', 'lazy', 'funny'],
         'adverb': ['quickly', 'lazily', 'happily', 'sadly'],
         'place': ['park', 'restaurant', 'school', 'zoo', 'museum'],
-        'exclamation': ['Wow', 'Oh no', 'Hooray', 'Yikes', 'Oops'],
+        'exclamation': ['Wow', 'Oh no', 'Hoorays', 'Yikes', 'Oops'],
     }
     return random.choice(words[word_type])
 
